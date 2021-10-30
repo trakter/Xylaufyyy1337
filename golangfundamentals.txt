@@ -1,0 +1,310 @@
+Catatan XylaufyyyId
+
+XploreSecurity
+"IT Security Development Research"
+https://xploresecurity.github.io/
+
+Golang Fundamentals
+
+
+
+
+Hi - Golang
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hi")
+}
+
+
+
+
+Variabel & Tipe Data String - Golang
+
+package main
+
+import (
+	"fmt"
+)
+
+var nama = "XylaufyyyId"
+
+func main() {
+	fmt.Println("Hi " + nama)
+}
+
+
+
+
+Variabel & Tipe Data Integer - Golang
+
+package main
+
+import (
+	"fmt"
+)
+
+var umur = 13
+
+func main() {
+	fmt.Println("Umur XylaufyyyId ", umur)
+}
+
+
+
+
+Komentar - Golang
+
+/*
+Komentar
+Komentar
+Komentar
+*/
+
+//Komentar
+//Komentar
+//Komentar
+
+
+
+
+Const - Golang
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	const umur = 13
+
+	fmt.Println("Umur XylaufyyyId ", umur)
+}
+
+
+
+
+Fungsi - Golang
+
+- String
+
+package main
+
+import (
+	"fmt"
+)
+
+var hi = "Hi"
+
+func printText() {
+	fmt.Println(hi)
+}
+func main() {
+	printText()
+}
+
+
+
+
+- Integer
+
+package main
+
+import (
+	"fmt"
+)
+
+var hi = 13
+
+func printNum() {
+	fmt.Println(hi)
+}
+func main() {
+	printNum()
+}
+
+
+
+
+Fungsi & Return - Golang
+
+- String
+
+package main
+
+import (
+	"fmt"
+)
+
+func printText() string {
+	return "Hi"
+}
+func main() {
+	fmt.Println(printText())
+}
+
+
+
+
+- Integer
+
+package main
+
+import (
+	"fmt"
+)
+
+func printNum() int {
+	return 13
+}
+func main() {
+	fmt.Println(printNum())
+}
+
+
+
+
+Fungsi & Parameter - Golang
+
+- String
+
+package main
+
+import (
+	"fmt"
+)
+
+func hi(nama string) string {
+	return nama
+}
+func main() {
+	fmt.Println(hi("XylaufyyyId"))
+	fmt.Println(hi("XylaufyyaId"))
+}
+
+
+
+
+- Integer
+package main
+
+import (
+	"fmt"
+)
+
+func hi(umur int) int {
+	return umur
+}
+func main() {
+	fmt.Println(hi(13))
+}
+
+
+
+
+For Loop - Golang
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var hi = 0
+	for hi < 10 {
+		fmt.Println("Hi", hi)
+		hi = hi + 1
+	}
+}
+
+
+
+
+Kondisi - Golang
+
+- Kondisi If
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var hi = 10
+	if hi < 11 {
+		fmt.Println("True")
+	} else {
+		fmt.Println("False")
+	}
+}
+
+
+
+
+- Kondisi Else
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var hi = 10
+	if hi > 11 {
+		fmt.Println("True")
+	} else {
+		fmt.Println("False")
+	}
+}
+
+
+
+
+- Kondisi Else If
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var x = 11
+	var y = 11
+	if x > y {
+		fmt.Println("x > y")
+	} else if x == y {
+		fmt.Println("x = y")
+	} else {
+		fmt.Println("x < y")
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"IT Security Development Research"
+https://xploresecurity.github.io/
