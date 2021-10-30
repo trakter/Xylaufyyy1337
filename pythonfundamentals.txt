@@ -1,0 +1,310 @@
+Catatan XylaufyyyId
+
+XploreSecurity
+"IT Security Development Research"
+https://xploresecurity.github.io/
+
+Python Fundamentals
+
+
+
+
+Hi - Python
+
+print("Hi")
+
+
+
+
+Komentar - Python
+
+#Komentar XylaufyyyId
+#Komentar XylaufyyyId
+#Komentar XylaufyyyId
+
+
+
+
+"""
+Komentar XylaufyyyId
+Komentar XylaufyyyId
+Komentar XylaufyyyId
+"""
+
+
+
+
+Tipe Data - Python
+
+- Boolean
+
+print(True)
+print(False)
+
+
+
+
+- String
+
+print("XylaufyyyId")
+
+
+
+
+- Integer
+
+print(13)
+
+
+
+
+- List
+
+print([1,2,3,4,5,6,7,8,9,10])
+print(["XylaufyyyId", "IT Security Development Research"])
+
+
+
+
+- Tuple
+
+print((1,2,3,4,5,6,7,8,9,10))
+print(("XylaufyyyId", "IT Security Development Research"))
+
+
+
+
+- Dictionary
+
+print({"nama": "XylaufyyyId", "umur": 13})
+
+
+
+
+Variabel - Python
+
+nama = "XylaufyyyId"
+umur = 13
+print(nama)
+print(umur)
+
+
+
+
+Kondisi - Python
+
+- Kondisi If
+
+x = "Pagi"
+
+if (x == "Pagi"):
+	print("XylaufyyyId Olahraga")
+
+elif (x == "Siang"):
+	print("XylaufyyyId Tidur")
+
+elif (x == "Sore"):
+	print("XylaufyyyId Jalan - Jalan Sore")
+
+else:
+	print("XylaufyyyId Istirahat")
+
+
+
+
+- Kondisi If Else
+
+x = "Malam"
+
+if (x == "Pagi"):
+	print("XylaufyyyId Olahraga")
+
+elif (x == "Siang"):
+	print("XylaufyyyId Tidur")
+
+elif (x == "Sore"):
+	print("XylaufyyyId Jalan - Jalan Sore")
+
+else:
+	print("XylaufyyyId Istirahat")
+
+
+
+
+- Kondisi Elif
+
+x = "Sore"
+
+if (x == "Pagi"):
+	print("XylaufyyyId Olahraga")
+
+elif (x == "Siang"):
+	print("XylaufyyyId Tidur")
+
+elif (x == "Sore"):
+	print("XylaufyyyId Jalan - Jalan Sore")
+
+else:
+	print("XylaufyyyId Istirahat")
+
+
+
+
+Loop - Python
+
+- While Loop
+
+x = 0
+while (x < 10):
+	print("XylaufyyyId", x)
+	x = x + 1
+
+print("IT Security Development Research")
+
+
+
+
+- For Loop
+
+XylaufyyyId = [1,2,3,4,5,6,7,8,9,10]
+for hi in XylaufyyyId:
+	print(hi)
+
+
+
+
+Integer - Python
+
+print(13)
+
+x = 13
+print(x)
+
+
+
+
+String - Python
+
+print("XylaufyyyId")
+
+x = "XylaufyyyId"
+print(x)
+
+
+
+
+List - Python
+
+x = [1,2,3,4,5,6,7,8,9,10]
+y = ["XylaufyyyId", "IT Security Development Research"]
+print(x)
+print(y)
+
+
+
+
+Tuple - Python
+
+x = (1,2,3,4,5,6,7,8,9,10)
+y = ("XylaufyyyId", "IT Security Development Research")
+print(x)
+print(y)
+
+
+
+
+Dictionary - Python
+
+x = {"nama": "XylaufyyyId", "umur": 13}
+print(x)
+
+print(x["nama"])
+print(x["umur"])
+
+
+
+
+Fungsi - Python
+
+def XylaufyyyId():
+	print("IT Security Development Research")
+XylaufyyyId()
+
+
+
+
+File I/O - Python
+
+x = input("XylaufyyyId - Input!!! ")
+print(x)
+
+print("XylaufyyyId - Output!!!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"IT Security Development Research"
+https://xploresecurity.github.io/
