@@ -1,8 +1,8 @@
 Catatan XylaufyyyId
 
-XploreSecurity
+1337Syndicate
 "IT Security Development Research"
-https://xploresecurity.github.io/
+https://1337syndicate.github.io/
 
 Golang Fundamentals
 
@@ -307,4 +307,4 @@ func main() {
 
 
 "IT Security Development Research"
-https://xploresecurity.github.io/
+https://1337syndicate.github.io/
